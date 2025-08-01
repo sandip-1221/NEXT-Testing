@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import LogoRow from './LogoRow';
+import AnimatedCounter from './animationCount';
 
 export default function Page() {
   return (
@@ -70,6 +72,13 @@ export default function Page() {
             Deploy to Vercel
           </a>
         </div>
+         <div className='max-w-screen-sm mb-10'>
+          <LogoRow />
+          <main className="bg-black min-h-screen flex items-center justify-center">
+            <AnimatedCounter target={1357} />
+          </main>
+      {/* other content */}
+    </div>
       </div>
     </div>
   );

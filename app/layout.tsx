@@ -1,4 +1,5 @@
 import './globals.css';
+import LogoRow from "./LogoRow"
 
 import { GeistSans } from 'geist/font/sans';
 
